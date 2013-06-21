@@ -15,7 +15,7 @@ class Company < ActiveRecord::Base
   def password
     @password
   end
-  def validate_password?(password_to_validate)
+  def valid_password?(password_to_validate)
     BCrypt::Password.new(encrypted_password) == password_to_validate 
   end
 end

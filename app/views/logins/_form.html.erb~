@@ -17,6 +17,6 @@
     </div>
   </div>
     <div class="control-group controls">
-    <%= f.submit "Login" class: 'btn btn-primary' %>
+    <%= f.submit "Login", class: 'btn btn-primary' %>
   </div>
 <% end %>
