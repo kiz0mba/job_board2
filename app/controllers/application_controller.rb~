@@ -7,5 +7,4 @@ private
       Company.find_by_id(session[:company_id])
     end
   end
-  helper_method :current_company 
 end
